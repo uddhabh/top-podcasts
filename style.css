@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.grid-item a {
+    color: black;
+    text-decoration: none;
+}
