@@ -20,6 +20,8 @@ window.addEventListener("load", function() {
                 spaceBetween: 30,
             }
         },
-        mousewheel: true,
+        mousewheel: {
+            forceToAxis: true,
+        }
     });
 });
