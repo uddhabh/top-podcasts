@@ -2,7 +2,7 @@
 /*
 Plugin Name: Top Podcasts
 Description: A plugin to display top podcasts from Apple Podcasts and Spotify.
-Version: 1.0
+Version: 1.01
 Author: Beenacle Technologies
 Author URI: https://beenacle.com/
 License: GPL2

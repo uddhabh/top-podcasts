@@ -9,7 +9,7 @@ if ($provider == 'spotify') {
     };
 }
 
-$output = '<div class="tp-grid-container tp-carousel-container' . $provider . '-podcasts swiper-container">
+$output = '<div class="swiper tp-grid-container tp-carousel-container' . $provider . '-podcasts swiper-container">
               <div class="swiper-wrapper">';
 
 foreach ($data as $key => $entry) {
@@ -27,19 +27,6 @@ foreach ($data as $key => $entry) {
 }
 
 $output .= '    </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <script>
-            window.addEventListener("load", function() {
-                var swiper = new Swiper(".swiper-container", {
-                    slidesPerView: "auto",
-                    spaceBetween: 30,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                });
-            });
-        </script>';
+            </div>';
 
 echo $output;
