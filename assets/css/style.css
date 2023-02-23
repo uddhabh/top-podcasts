@@ -1,8 +1,11 @@
-.tp-grid-container {
+.tp-grid-container:not(.tp-carousel-container) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-column-gap: 30px;
     row-gap: 60px;
+}
+
+.tp-carousel-container {
     padding: 15px 0 15px 15px !important;
 }
 
@@ -36,12 +39,13 @@
 .tp-podcast-image {
     box-shadow: 0px 2px 8px rgba(157, 157, 157, 0.25);
     border-radius: 6px;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 }
 
 .tp-podcast-image:hover {
     box-shadow: 0px 4px 12px rgba(157, 157, 157, 0.5);
+    transform: translate(-10px, -10px);
 }
 
 .tp-podcast-title {

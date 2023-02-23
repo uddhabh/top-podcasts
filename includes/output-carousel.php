@@ -9,7 +9,7 @@ if ($provider == 'spotify') {
     };
 }
 
-$output = '<div class="swiper tp-grid-container tp-carousel-container' . $provider . '-podcasts swiper-container">
+$output = '<div class="swiper tp-grid-container tp-carousel-container ' . $provider . '-podcasts swiper-container">
               <div class="swiper-wrapper">';
 
 foreach ($data as $key => $entry) {
